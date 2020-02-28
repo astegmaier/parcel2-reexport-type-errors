@@ -1,0 +1,16 @@
+{
+  "name": "parcel2-reexport-type-errors",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/astegmaier/parcel2-reexport-type-errors.git",
+  "author": "Andrew Stegmaier <ansteg@microsoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.ts",
+    "start": "parcel src/index.ts"
+  },
+  "devDependencies": {
+    "@parcel/validator-typescript": "^2.0.0-nightly.132",
+    "parcel": "^2.0.0-nightly.130"
+  }
+}
