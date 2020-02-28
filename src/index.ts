@@ -1,3 +1,5 @@
-const message: string = "Hello World!";
+import { Person } from "./Person";
 
-console.log(message);
+const andrew: Person = { firstName: "Andrew", lastName: "Stegmaier" }
+
+console.log(andrew);
